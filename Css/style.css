@@ -127,8 +127,37 @@ section {
     text-align: center;
 }
 
-.project {
+.experiencia {
     margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px;
+    background-color: #5e5fa8;
+}
+
+.imgExp{
+    grid-column: 1;
+    grid-row: 1/4;
+    background-color: coral;
+}
+
+.imgExp img{
+    width: 100%;
+    height: 100%;
+}
+
+.topicosExp{
+    background-color: crimson;
+}
+
+.botaoExp{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: darkmagenta;
+}
+
+.botaoExp button{
+   display: flex;
 }
 
 form input, form textarea {
