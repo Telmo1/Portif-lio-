@@ -90,6 +90,15 @@ nav ul li a {
     text-align: center;
 }
 
+.habilidades{
+    
+    background-color: #ff0095;
+}
+
+.habilidadesPrincipais{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
 
 /* .home img {
     width: 100%;
@@ -173,6 +182,23 @@ form button {
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+/* .redesSociais{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 0.5dvw;
+} */
+
+.redesSociais div{
+    width: 4vh;
 }
 
 @media (max-width: 768px) {

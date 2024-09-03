@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.toggle('dark-mode');
     });
 });
+
+// document.addEventListener('mousemove', function(e) {
+//     const x = e.clientX / window.innerWidth;
+//     const y = e.clientY / window.innerHeight;
+//     const red = Math.round(x * 255);
+//     const blue = Math.round(y * 255);
+//     document.body.style.background = `rgb(${red}, 0, ${blue})`;
+// });
